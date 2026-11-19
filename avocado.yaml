@@ -4,7 +4,7 @@ supported_targets:
 
 extensions:
   avocado-bsp-alif-e8-devkit:
-    version: 2024.1.0
+    version: 0.1.0
     release: r0
     summary: Board support for the Alif Ensemble E8 DevKit
     description: Board support for the Alif Ensemble E8 DevKit
@@ -27,4 +27,4 @@ extensions:
       kernel-modules: '*'
 
 sdk:
-  image: docker.io/avocadolinux/sdk:{{ env.AVOCADO_DISTRO_RELEASE }}-{{ env.AVOCADO_DISTRO_CHANNEL }}
+  image: docker.io/avocadolinux/sdk:{{ env.AVOCADO_DISTRO_RELEASE }}
